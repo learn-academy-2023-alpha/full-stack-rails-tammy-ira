@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   
   get '/blogs/:id' => 'blog#show', as: 'blog'
 
-
+  post '/blogs' => 'blog#create'
   
 end
