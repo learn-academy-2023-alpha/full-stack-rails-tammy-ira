@@ -2,7 +2,7 @@
 
 <ul>
 <% @blog.each do |blog| %>
-       <li> <%= link_to blog.title %> </li>
+       <li> <%= link_to blog.title, blog_path(blog.id) %> </li>
 <% end %>
 </ul>
 
