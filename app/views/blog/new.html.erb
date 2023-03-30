@@ -1,3 +1,5 @@
+<%= stylesheet_link_tag 'application.css' %>
+
 <h1>Add New Posts Here</h1>
 
 <%= form_with model: @blog do |form| %>
@@ -9,3 +11,6 @@
   <% end %>
 
   <p><%= link_to 'All Posts', blogs_path %></p>
+
+  <footer> <p>Tammy & Ira Blog Page</p> 
+</footer>
