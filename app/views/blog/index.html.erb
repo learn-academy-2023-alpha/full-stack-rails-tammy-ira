@@ -1,5 +1,8 @@
-<h1>Welcome to My Blog!</h1>
+<%= stylesheet_link_tag 'application.css' %>
+<%= image_tag "Blog-image.png" %>
 
+<h1>Welcome to My Blog!</h1>
+<div class = 'container'>
 <ul>
 <% @blog.each do |blog| %>
        <li> <%= link_to blog.title, blog_path(blog.id) %> </li>
@@ -7,4 +10,9 @@
 </ul>
 
 <p><%= link_to 'Add New Post', new_blog_path %>
+</div>
+<nav>
 
+</nav>
+<footer> <p>Tammy & Ira Blog Page</p> 
+</footer>

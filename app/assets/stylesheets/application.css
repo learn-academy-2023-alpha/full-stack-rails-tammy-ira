@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+ }
+
+ h1{
+   border-radius: 0%;
+   border-color: #020202;
+   border-style: dotted;
+   color: brown;
+   text-decoration: wavy;
+   text-decoration-color: brown;
+ }
+
+ .container{
+   text-align: center;
+   display: list-item;
+   border-radius: 0%;
+   border-style: solid;
+   border-color: cadetblue;
+   font-size: larger;
+ }
+
+ /* @keyframes gradient {
+   0%{
+      background-position: 0% 50%;
+   }
+
+   50%{
+      background-position: 50% 75%;
+   }
+
+ }
+  */
+
+
