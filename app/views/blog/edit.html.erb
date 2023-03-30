@@ -1,0 +1,11 @@
+<h1>Edit Blog Post</h1>
+
+<%= form_with model: @blog do |form| %>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+    <%= form.submit "Update Post" %>
+  <% end %>
+
+  <p><%= link_to 'All Posts', blogs_path %></p>
